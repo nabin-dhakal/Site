@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://deltastacksolutions.dev/sitemap.xml
