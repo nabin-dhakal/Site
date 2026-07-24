@@ -131,8 +131,9 @@ Full Name
 </label>
 
 <input
+name = "Fullname"
 type="text"
-placeholder="John Doe"
+placeholder="Full name"
 class="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none transition focus:border-primary">
 
 </div>
@@ -144,6 +145,7 @@ Company
 </label>
 
 <input
+name="Company"
 type="text"
 placeholder="ABC Pvt. Ltd."
 class="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none transition focus:border-primary">
@@ -161,6 +163,7 @@ Email
 </label>
 
 <input
+name="Email"
 type="email"
 placeholder="you@example.com"
 class="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none transition focus:border-primary">
@@ -174,6 +177,7 @@ Project Type
 </label>
 
 <select
+name="project_type"
 class="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none focus:border-primary">
 
 <option>Select Project</option>
@@ -211,17 +215,18 @@ Estimated Budget
 </label>
 
 <select
+name="Estimated_budget"
 class="w-full rounded-xl border border-slate-300 px-4 py-4">
 
 <option>Choose Budget</option>
 
-<option>Less than $1,000</option>
+<option>Less than NPR 20,000</option>
 
-<option>$1,000 - $5,000</option>
+<option>Npr 20,000 - Npr 50,000</option>
 
-<option>$5,000 - $10,000</option>
+<option>Npr 50,000 - Npr 100,000</option>
 
-<option>$10,000+</option>
+<option>Npr 100,000+</option>
 
 <option>Let's Discuss</option>
 
@@ -236,6 +241,7 @@ Expected Timeline
 </label>
 
 <select
+name="Expected_timeline"
 class="w-full rounded-xl border border-slate-300 px-4 py-4">
 
 <option>Select Timeline</option>
@@ -263,6 +269,7 @@ Project Description
 </label>
 
 <textarea
+name="project_description"
 rows="8"
 placeholder="Tell us about your project, your goals, features you need, and anything else that will help us understand your vision."
 class="w-full rounded-xl border border-slate-300 px-4 py-4 outline-none focus:border-primary"></textarea>
@@ -276,6 +283,7 @@ How did you hear about us?
 </label>
 
 <input
+type="referral_source"
 type="text"
 placeholder="Google, Referral, LinkedIn..."
 class="w-full rounded-xl border border-slate-300 px-4 py-4">
